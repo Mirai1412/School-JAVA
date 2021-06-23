@@ -2,6 +2,8 @@ package ch15;
 
 import java.util.*;
 
+import ch12.Student;
+
 public class testArrayList {
 	public static void main(String[] args) {
 		// String[] arr1 = {"µ¿", "¼­", "³²", "ºÏ"};

@@ -5,9 +5,8 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.Shape;
-import javax.swing.JFrame;
 
-import ch11.Mypanel;
+import javax.swing.JFrame;
 
 public class Paint extends Mypanel {
 

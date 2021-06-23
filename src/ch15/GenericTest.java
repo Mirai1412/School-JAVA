@@ -1,5 +1,7 @@
 package ch15;
 
+import ch12.Student;
+
 public class GenericTest {
 
 	public static void main(String[] args) {
