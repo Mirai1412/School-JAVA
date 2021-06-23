@@ -1,3 +1,4 @@
+package ch18;
 public class papago2 {
 	
 	public static void main(String [] args) {

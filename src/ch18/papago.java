@@ -1,3 +1,4 @@
+package ch18;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -17,7 +18,7 @@ public class papago extends JFrame {
 	private final String CLIENT_SECRET="";
 
 	public papago() {
-		super("íŒŒíŒŒê³  ë²ˆì—­ê¸°");
+		super("?ŒŒ?ŒŒê³? ë²ˆì—­ê¸?");
 		textIn = new JTextArea(10, 14);
 		textOut = new JTextArea(10, 14);
 		textIn.setLineWrap(true);
@@ -28,7 +29,7 @@ public class papago extends JFrame {
 		textAreaPanel.add(textIn);
 		textAreaPanel.add(textOut);
 
-		converter = new JButton("ë³€í™˜");
+		converter = new JButton("ë³??™˜");
 		canceler = new JButton("ì·¨ì†Œ");
 		converter.addActionListener(new ButtonActionListener());
 		canceler.addActionListener(new ButtonActionListener());
@@ -78,8 +79,8 @@ public class papago extends JFrame {
 			requestHeaders.put("X-Naver-Client-Id",CLIENT_ID);
 			requestHeaders.put("X-Naver-Client-Secret",CLIENT_SECRET);
 			result = post(apiURL,requestHeaders,text );
-			//result = result.replace("í•œêµ­ì–´", "Text");
-			//result = result.replace("ì˜ì–´", "English");
+			//result = result.replace("?•œêµ??–´", "Text");
+			//result = result.replace("?˜?–´", "English");
 			System.out.println(result);
 			result = result.substring(result.indexOf("translatedText")+"translatedText".length()+3,result.indexOf("engineType")-3);
 			return result;

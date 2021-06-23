@@ -1,3 +1,4 @@
+package ch15;
 import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.Graphics;
@@ -5,6 +6,8 @@ import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.Shape;
 import javax.swing.JFrame;
+
+import ch11.Mypanel;
 
 public class Paint extends Mypanel {
 
