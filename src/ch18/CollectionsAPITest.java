@@ -1,4 +1,5 @@
 package ch18;
+
 import java.util.*;
 
 public class CollectionsAPITest {
@@ -35,18 +36,18 @@ public class CollectionsAPITest {
 		// 또는 원소의 타입 클래스를 변경할 수 있지만, 그 클래스를 변경하지 않고
 		// 정렬하고자 할 떄도 Comparator 클래스를 구현해 준다.
 
-		Collections.sort(list, new MyComparator()/* String 원소의 새로운 정렬방법 */);
+		// Collections.sort(list, new MyComparator()/* String 원소의 새로운 정렬방법 */);
 		System.out.println("내림차순 정렬 후...");
 		System.out.println(list);
 
-		//int sum = CollectionsAPITest.add(3, 4);
-		//System.out.println(sum);
+		// int sum = CollectionsAPITest.add(3, 4);
+		// System.out.println(sum);
 
 	}
 
 	// add 가 하는 일 : 인자로 전달된 두 개의 값을 더하고 그 결과를 반환하는 것.
-	//	public static int add(int n1, int n2) {
-	//	return n1 + n2;
-	//	}
+	// public static int add(int n1, int n2) {
+	// return n1 + n2;
+	// }
 
 }
